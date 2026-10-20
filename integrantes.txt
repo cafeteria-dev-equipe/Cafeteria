@@ -1,0 +1,13 @@
+PROJETO: CAFETERIA DEV
+CHECKPOINT 2 - FIAP
+
+INTEGRANTES:
+
+1. Nome completo: Musashi Mabuti
+   RM: 559444
+
+2. Nome completo: Felipe Gimenes
+   RM: 99799
+
+REPOSITORIO:
+https://github.com/cafeteria-dev-equipe/Cafeteria
