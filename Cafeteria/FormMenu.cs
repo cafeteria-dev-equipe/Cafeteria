@@ -45,12 +45,20 @@ namespace Cafeteria
 
             btnVendas.Click += (s, e) =>
             {
-                MessageBox.Show("Módulo de vendas em desenvolvimento.");
+                btnVendas.Click += (s, e) =>
+                {
+                    using FormVenda telaVenda = new FormVenda();
+                    telaVenda.ShowDialog();
+                };
             };
 
             btnRelatorio.Click += (s, e) =>
             {
-                MessageBox.Show("Módulo de relatórios em desenvolvimento.");
+                btnRelatorio.Click += (s, e) =>
+                {
+                    using FormRelatorio telaRelatorio = new FormRelatorio();
+                    telaRelatorio.ShowDialog();
+                };
             };
         }
     }
