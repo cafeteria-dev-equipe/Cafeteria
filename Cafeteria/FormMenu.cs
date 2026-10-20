@@ -42,6 +42,16 @@ namespace Cafeteria
             Controls.Add(titulo);
             Controls.Add(btnVendas);
             Controls.Add(btnRelatorio);
+
+            btnVendas.Click += (s, e) =>
+            {
+                MessageBox.Show("Módulo de vendas em desenvolvimento.");
+            };
+
+            btnRelatorio.Click += (s, e) =>
+            {
+                MessageBox.Show("Módulo de relatórios em desenvolvimento.");
+            };
         }
     }
 }

@@ -17,6 +17,8 @@ namespace Cafeteria
                 {
                     splash.ShowDialog();
                 }
+
+                Application.Run(new FormMenu());
             }
         }
     }
